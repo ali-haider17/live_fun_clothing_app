@@ -1,4 +1,4 @@
-# new_clothing_shop
+# Live Fun Clothing Shop
 
 A new Flutter project.
 
