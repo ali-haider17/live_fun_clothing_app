@@ -86,7 +86,7 @@ class Authentication with ChangeNotifier{
   //TODO: ADDING USER SIGN-UP
   Future<void> SignUp(String email, String password) async {
 
-    const URL = "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyAFZZbnETt2I6XRwhjVlrFfg1Ap1y9qbxs";
+    const URL = "ENTER YOUR FIREBASE AUTHENTICATION REST API HERE FOR SIGNUP";
     try {
       final response = await http.post(URL,
           body: json.encode({
@@ -111,7 +111,7 @@ class Authentication with ChangeNotifier{
 
     print(email);
     print(password);
-    const URL = "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyAFZZbnETt2I6XRwhjVlrFfg1Ap1y9qbxs";
+    const URL = "ENTER YOUR FIREBASE AUTHENTICATION REST API HERE FOR SIGNIN";
     try{
       final response = await http.post(URL,
           body: json.encode({
